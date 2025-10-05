@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>
+    This is the maze game </h1>
+  <p>choose carefuly </p>
+  
+  <section id="start">
+    <p>
+      you stand 
+    </p>
+    <img src="maze (1).jpg" alt="maze entrance" width="300"><br>
+    <a href="#a"> go left </a>
+    <a href="#d"> go right</a>
+  </section>
+  <!-- go right-->
+  <section id="d">
+    <p>you fall</p>
+    <img src="fall.jpg" alt=""width="300"><br>
+    <a href="start"> restart</a>
+
+  </section>
+  
+  <!-- go left-->
+  <section id="a">
+    <p> the path splits AGAIN </p>
+    <img src="tunnel.jpg" alt=""width="300"><br>
+    <a href="b"> take the narrow </a>
+    <a href="e"> take the wide </a>
+  </section>
+
+  <!-- take the wide -->
+  <section id="e">
+    <p>you are trapped</p>
+    <img src="dark.jpg" alt=""width="300"><br>
+    <a href="start"> restart</a>
+  </section>
+  
+  <!-- take the narrow-->
+  <section id="b">
+    <p> staircase </p>
+    <img src="ladder.jpg" alt=""width="300"><br>
+    <a href="c">climb</a>
+    <a href="f"> go down </a>
+  </section>
+
+  <!-- go down -->
+  <section id="c">
+    <p>blocked</p>
+    <img src="gate.jpg" alt=""width="300"><br>
+    <a href="start"> restart</a>
+  </section>
+
+  <!-- climb -->
+  <section id="f">
+    <p>you reached a door</p>
+    <img src="key.jpg" alt=""width="300"><br>
+    <a href="g">silver </a>
+    <a href="h" > gold</a>
+    
+  </section>
+
+  <!-- silver -->
+  <section id="g">
+    <p> game over </p>
+    <img src="darts.jpg" alt=""width="300"><br>
+    <a href="start"> restart</a>
+  </section>
+
+  <!-- gold-->
+  <section id="h">
+    <p>you win</p>
+    <img src="treasure.jpg" alt=""width="300"><br>
+    <a href="start "> play again</a>
+  </section>
+  
+</body>
+</html>
